@@ -14,7 +14,7 @@ This repository contains a project that applies **Deep Learning** techniques to 
 - **Visualization:** Displays a confusion matrix and classification metrics for model evaluation.
 
 ## Dataset
-
+https://www.kaggle.com/code/ramakrushnamohapatra/social-media-sentiment-analysis/input
 The dataset contains:
 - **Post Content**: Textual data representing user posts.
 - **Sentiment**: Labels representing the sentiment of each post (e.g., Negative, Neutral, Positive).
@@ -94,6 +94,10 @@ Output Layer (Binary: 1 unit with Sigmoid | Multi-Class: 3 units with Softmax)
 | Negative + Neutral | **211**                     | 59                 |
 | Positive           | **95**                      | 35                 |
 
+### Confusion Matrix
+
+![Confusion Matrix](https://github.com/lishenyu1024/MoodAnalyzer/blob/725b362f398dfc64e038868ef8dd8f82803556e2/pics/matrix.jpg)
+
 **Observations:**
 - The model performs well in identifying the `Negative + Neutral` class but struggles to correctly classify the `Positive` class.
 - There is significant misclassification of positive instances as `Negative + Neutral`.
@@ -101,7 +105,13 @@ Output Layer (Binary: 1 unit with Sigmoid | Multi-Class: 3 units with Softmax)
 ### Training and Validation Performance
 - **Training Accuracy:**
   - The model achieves progressively higher accuracy on the training set, nearing 90%.
+
+![Training Accuracy](https://github.com/lishenyu1024/MoodAnalyzer/blob/725b362f398dfc64e038868ef8dd8f82803556e2/pics/Epoch.jpg)
+
 - **Validation Accuracy:**
+  - 13/13 ━━━━━━━━━━━━━━━━━━━━ 0s 1ms/step - accuracy: 0.6015 - loss: 1.1586 
+  - Test Accuracy: 0.6275000166893005
+
   - Validation accuracy remains relatively stable around 60-65%, indicating potential overfitting to the training data.
 
 ## Future Improvements
