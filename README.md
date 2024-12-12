@@ -14,8 +14,8 @@ This repository contains a project that applies **Deep Learning** techniques to 
 - **Visualization:** Displays a confusion matrix and classification metrics for model evaluation.
 
 ## Dataset
-https://www.kaggle.com/code/ramakrushnamohapatra/social-media-sentiment-analysis/input
-The dataset contains:
+- https://www.kaggle.com/code/ramakrushnamohapatra/social-media-sentiment-analysis/input
+- The dataset contains:
 - **Post Content**: Textual data representing user posts.
 - **Sentiment**: Labels representing the sentiment of each post (e.g., Negative, Neutral, Positive).
 - **Other Features**: Additional categorical and numerical features such as language, post type, and engagement metrics.
